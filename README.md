@@ -37,3 +37,4 @@ INSERT DESCRIPTION HERE
 ...
 
 1. Put mowgli in jungle.
+2. Install [direnv](https://direnv.net/)

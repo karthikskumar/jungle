@@ -1,18 +1,19 @@
-FROM ubuntu:22.04
+FROM python:latest
+RUN python --version
+# Set env variables
 ARG DEBIAN_FRONTEND=noninteractive
-ENV PYTHON_VERISION=
-    POETRY_VERSION=1.1.12 \
+ENV POETRY_VERSION=1.1.12 \
     POETRY_NO_INTERACTION=1 \
     POETRY_VIRTUALENVS_CREATE=false \
     PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
-RUN sudo apt update && sudo apt upgrade
-RUN sudo apt install software-properties-common
+# Prep apt
+RUN apt update && apt upgrade
 
-RUN sudo add-apt-repository ppa:deadsnakes/ppa
-RUN sudo apt update
+# Install poetry
+RUN curl -sSL https://install.python-poetry.org | python3 -
+ENV PATH="/root/.local/bin:$PATH"
+RUN poetry --version
 
-RUN sudo apt install python3.10
-
-RUN python3.10 --version
+CMD /bin/bash
