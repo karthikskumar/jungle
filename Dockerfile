@@ -15,8 +15,10 @@ RUN apt update && apt upgrade
 RUN curl -sSL https://install.python-poetry.org | python3 -
 ENV PATH="/root/.local/bin:$PATH"
 
+RUN curl https://raw.githubusercontent.com/karthikskumar/jungle/main/pyproject.toml -O
+
 # Install packages
-RUN poetry add $( curl https://raw.githubusercontent.com/karthikskumar/jungle/main/requirements.txt ) && echo "python --version" && echo "poetry --version"
+RUN poetry init && poetry add $(curl https://raw.githubusercontent.com/karthikskumar/jungle/main/requirements.txt) && echo "python --version" && echo "poetry --version"
 
 CMD echo "python --version" && echo "poetry --version" 
 ENTRYPOINT /bin/bash
