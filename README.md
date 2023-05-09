@@ -38,3 +38,6 @@ INSERT DESCRIPTION HERE
 
 1. Put mowgli in jungle.
 2. Install [direnv](https://direnv.net/)
+
+### FAQ ME:
+1. Docker [cheat sheet](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)

@@ -1,0 +1,8 @@
+pendulum
+pandas
+numpy
+polar
+plotly
+plotnine
+itables
+shiny
