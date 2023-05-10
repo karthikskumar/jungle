@@ -1,13 +1,23 @@
+<style>
+subtitle {color: grey;font-style: oblique; font-weight:300}
+subtle {color: grey;font-weight:200}
+</style>
+
+
 # jungle
-*Setup a basal enviornment for **all** projects using a single line command*
+<subtitle>Setup a basal enviornment for **all** projects using just a single line command</subtitle>
+
+![](_files/trippin_through_the_jungle.gif)
 
 ## How To
 1. Create directory for you project using a name of your choosing.
 1. [*Optional* ] Include your python requirements.txt or poetry.lock file.
 1. Within the directory do something like: `curl shell_scrhttps://raw.githubusercontent.com/<MAGIC_SHELL_SCRIPT>`
-*~Fin~*
+
+	*~ Fin ~*
 
 ## Under the hood
+...
 
 ## Requirements
 1. Docker
@@ -49,5 +59,5 @@
 1. Put mowgli in jungle.
 2. Install [direnv](https://direnv.net/)
 
-### FAQ ME:
+### FAQ <subtle>by</subtle> ME:
 1. Docker [cheat sheet](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
