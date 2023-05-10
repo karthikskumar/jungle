@@ -2,7 +2,8 @@ FROM python:latest
 
 # Set env variables
 ARG DEBIAN_FRONTEND=noninteractive
-ENV POETRY_VERSION=1.1.12 \
+ARG BASAL_SOURCE_REPOSITORY=karthikskumar/jungle
+ENV SOURCE_REPOSITORY=$BASAL_SOURCE_REPOSITORY \
     POETRY_NO_INTERACTION=1 \
     POETRY_VIRTUALENVS_CREATE=false \
     PYTHONDONTWRITEBYTECODE=1 \
@@ -15,10 +16,10 @@ RUN apt update && apt upgrade
 RUN curl -sSL https://install.python-poetry.org | python3 -
 ENV PATH="/root/.local/bin:$PATH"
 
-RUN curl https://raw.githubusercontent.com/karthikskumar/jungle/main/pyproject.toml -O
+RUN curl https://raw.githubusercontent.com/${SOURCE_REPOSITORY}/main/pyproject.toml -O
 
 # Install packages
-RUN poetry init && poetry add $(curl https://raw.githubusercontent.com/karthikskumar/jungle/main/requirements.txt) && echo "python --version" && echo "poetry --version"
+RUN poetry add $(curl https://raw.githubusercontent.com/${SOURCE_REPOSITORY}/main/requirements.txt) && echo "python --version" && echo "poetry --version"
 
 CMD echo "python --version" && echo "poetry --version" 
 ENTRYPOINT /bin/bash
