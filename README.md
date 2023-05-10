@@ -2,7 +2,7 @@
 <table style="border: none; border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td rowspan="2"><img src="_files/trippin_through_the_jungle.gif"></td>
-    <td valign="top"><h3><i>Setup a basal enviornment for <b>all</b> projects using just a single line command</i></h3></td>
+    <td valign="top"><h5><i>Setup a basal enviornment for <b>all</b> projects using a single line command</i></h3></td>
   </tr>
 
 </table>
