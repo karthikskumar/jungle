@@ -1,5 +1,8 @@
-<img src="_files/trippin_through_the_jungle.gif"> | <img src="_files/header.svg" style="width: 100%;"><br> `Setup a basal enviornment for **all** projects using just a single line command`
-:-:|:-:
+<table style="width: fit; border: none;" cellspacing="-10" cellpadding="0" border="0">
+  <tr>
+    <td rowspan="2"><img src="_files/trippin_through_the_jungle.gif"></td>
+    <td valign="top"><img src="_files/header.svg" style="width: 100%;"><i>Setup a basal enviornment for **all** projects using just a single line command</i></td>
+</table>
 
 
 ## How To
