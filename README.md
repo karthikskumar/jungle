@@ -1,7 +1,9 @@
-<table style="width: fit; border: none;" cellspacing="-10" cellpadding="0" border="0">
+<table style="border: none; border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td rowspan="2"><img src="_files/trippin_through_the_jungle.gif"></td>
-    <td valign="top"><img src="_files/header.svg" style="width: 100%;"><i>Setup a basal enviornment for **all** projects using just a single line command</i></td>
+    <td valign="top"><h1><img src="_files/header.svg" style="width: 100%;"></h1><h3><i>Setup a basal enviornment for <b>all</b> projects using just a single line command</i></h3></td>
+  </tr>
+
 </table>
 
 
