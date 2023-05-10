@@ -1,13 +1,23 @@
 # jungle
-# A basal docker enviornment for all projects
+*Setup a basal enviornment for **all** projects using a single line command*
 
-INSERT DESCRIPTION HERE
+## How To
+1. Create directory for you project using a name of your choosing.
+1. [*Optional* ] Include your python requirements.txt or poetry.lock file.
+1. Within the directory do something like: `curl shell_scrhttps://raw.githubusercontent.com/<MAGIC_SHELL_SCRIPT>`
+*~Fin~*
+
+## Under the hood
+
+## Requirements
+1. Docker
+2. poetry
 
 ### Enviornment
 1. [poetry](https://python-poetry.org/docs/)
 ...
 
-### Modules
+### Pre included modules
 1. The "bear necessasities":
 	[mowgli](https://github.com/karthikskumar/mowgli/)
 	
