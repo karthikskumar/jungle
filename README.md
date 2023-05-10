@@ -1,5 +1,6 @@
-# <p float="left"><img src="_files/trippin_through_the_jungle.gif"/><img src="_files/header.svg" style="width: 100%;"></img></p>
-> Setup a basal enviornment for **all** projects using just a single line command
+<img src="_files/trippin_through_the_jungle.gif"> | <img src="_files/header.svg" style="width: 100%;"><br> `Setup a basal enviornment for **all** projects using just a single line command`
+:-:|:-:
+
 
 ## How To
 1. Create directory for you project using a name of your choosing.
