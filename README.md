@@ -1,4 +1,4 @@
-# Jungle
+<img src="assets/header.svg" style="width: 100%;">
 <i>Setup a basal enviornment for <b>all</b> projects using a single line command</i>
 
 ![jungle](/assets/trippin_through_the_jungle.gif)
