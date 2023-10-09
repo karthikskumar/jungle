@@ -1,14 +1,11 @@
 <img src="assets/header.svg" style="width: 100%;">
-<i>Setup a basal enviornment for <b>all</b> projects using a single line command</i>
-
-![jungle](/assets/trippin_through_the_jungle.gif)
-
+<i>A tool to setup a basal development environment for <b>all</b> projects using a single line command</i>
 
 ## How To
 1. Create directory for you project using a name of your choosing.
-1. [*Optional* ] Include your python requirements.txt or poetry.lock file.
+1. Include your python requirements.txt or poetry.lock file.
 1. Within the directory do something like: `curl shell_scrhttps://raw.githubusercontent.com/<MAGIC_SHELL_SCRIPT>`
-
+1. Creates a docker env with the necessary modules installed (if included).
 	*~ Fin ~*
 
 ## Under the hood
@@ -23,7 +20,7 @@
 ...
 
 ### Pre included modules
-1. The "bear necessasities":
+1. The "bear necessities":
 	"mowgli"
 	
 2. Dates and Times: 
@@ -54,8 +51,19 @@
 ### TODO:
 ...
 
-1. Put mowgli in jungle.
-2. Install [direnv](https://direnv.net/)
+1. Put mowgli in the jungle.
+1. 
+1. Install [direnv](https://direnv.net/)
 
-### FAQ<span style="color:gray;">by</span>ME:
+### FAQ<span style="color:gray;"> by </span>ME:
 1. Docker [cheat sheet](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
+
+<div align="center">
+<h2> 
+
+〜 Fin 〜
+
+![jungle](/assets/trippin_through_the_jungle.gif)
+
+</h2>
+</div>
