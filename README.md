@@ -52,10 +52,13 @@
 ...
 
 1. Put mowgli in the jungle.
-1. 
+1. Remove references to poetry.
 1. Install [direnv](https://direnv.net/)
 
 ### FAQ<span style="color:gray;"> by </span>ME:
+
+1. How to export requirements from the pdm managed lock file to requirements.txt.
+	<br> Use this: `pdm export --without-hashes -o requirements.txt`
 1. Docker [cheat sheet](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
 
 <div align="center">
